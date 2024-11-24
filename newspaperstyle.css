@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    background-color: rgb(247, 215, 176);
+}
+
+h1{
+    font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  margin-top:20px;
+  padding-bottom:10px;
+  color:rgb(167, 100, 18);
+  border-bottom: 3px solid rgb(130, 76, 10);
+  
+
+}
+.para1{
+    font-family: "PT Serif", serif;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom:8px;
+    border-bottom: 1px solid rgb(130, 76, 10);
+    margin-top:5px;
+    border-top: 1px solid rgb(130, 76, 10);
+    color: rgb(121, 69, 5);
+    font-weight: bold;
+   font-style: normal;
+  
+}
+.paticean{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin-top:5px;
+    border-top: 3px solid rgb(130, 76, 10);
+}
+.mainpart{
+    width:70%;
+    height:675px;
+    margin-top:10px;
+    border-right: 2px solid rgb(174, 103, 15) ;
+   
+}
+.submainpart1{
+    margin-left: 10px;
+    width:97%;
+    background-color:rgb(174, 103, 15) ;
+    height:250px;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+.submainpart2{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+   
+}
+.content1{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* text-align: justify; */
+    border-right: 2px solid rgb(174, 103, 15);
+    padding-left:20px;
+    padding-right:10px;
+   
+    /* width:100%; */
+}
+.content2{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left:20px;
+    padding-right:10px;
+    text-align: justify;
+}
+.secondpart{
+    width:30%;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left:20px;
+    padding-right:10px;
+    text-align: justify;
+}
